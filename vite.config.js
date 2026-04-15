@@ -3,11 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: "/esen-event/",
-  plugins: [react()],
-  publicDir: 'assets',
-  server: {
-    fs: {
-      strict: false
-    }
-  }
+  plugins: [react()]
 })
